@@ -23,7 +23,7 @@ A production-grade RESTful API for managing property listings, built with Go, Ch
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/property-listings-api.git
+git clone https://github.com/pasDamola/property-listings-api.git
 cd property-listings-api
 ```
 
