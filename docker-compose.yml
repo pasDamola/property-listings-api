@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgis/postgis:15-3.3
+    platform: linux/amd64 # Add this if you are on an M1/M2/M3 Mac
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: property_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
